@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Bubbling</title>
+    <meta charset="UTF-8" />
+  <style>
+    div {
+      min-width: 100px;
+      min-height: 100px;
+      padding: 30px;
+      border: 1px solid blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="grandparent">
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+  </div>
+  <body>
+    <script src="src/index.js"></script>
+  </body>
+</html>
